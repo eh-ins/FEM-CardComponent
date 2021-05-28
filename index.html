@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Card Component</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__image">
+        <picture>
+          <source
+          media="(min-width: 541px)"
+          srcset="./images/image-header-desktop.jpg">
+          <source
+          media="(max-width: 540px)"
+          srcset="./images/image-header-mobile.jpg">
+          <img src="./images/image-header-mobile.jpg" alt="business photo">
+        </picture>
+      </div>
+      <div class="card__info">
+        <div class="card__info__content">
+          <h1>
+            Get <span class="primary-color">insights</span> that help your
+            business grow.
+          </h1>
+          <div class="card__content">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and ovearall efficency.
+          </div>
+          <div class="card__stats">
+            <div class="stats">
+              <div class="stats__title">10k+</div>
+              <div class="stats__content">companies</div>
+            </div>
+            <div class="stats">
+              <div class="stats__title">314</div>
+              <div class="stats__content">templates</div>
+            </div>
+            <div class="stats">
+              <div class="stats__title">12M+</div>
+              <div class="stats__content">queries</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+ 
